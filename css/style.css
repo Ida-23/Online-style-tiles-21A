@@ -4,6 +4,11 @@
 /* @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap'); */
 @import url("https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic");
 
+/* Mine fonte */
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap");
+
 * {
   box-sizing: border-box;
 }
@@ -15,34 +20,23 @@ use the fonts in other ways in the font hierarchy etc. */
 /* change / delete some of these - note: all variables are listed twice */
 
 :root {
-  --bg-color: red;
-  --link-color: green;
-  --link-hover-color: blue;
-  --color-4: hotpink;
-  --color-5: rebeccapurple;
+  --bg-color: #877faf;
+  --link-color: #dbbe94;
+  --link-hover-color: #708675;
+  --color-4: #1a1a1a;
+  --color-5: #fffff8;
 
-  --primary-font: "Open Sans", sans-serif;
-  --secondary-font: "Droid Serif", serif;
+  --primary-font: "Poiret One", cursive;
+  --secondary-font: "Raleway", sans-serif;
+  --infotekst-font: "Assistant", sans-serif;
   --main-text-color: #000;
 
   --white-space: 1rem;
-
-  --bg-color: #000;
-  --link-color: #000;
-  --link-hover-color: #000;
-  --color-4: #000;
-  --color-5: #000;
-
-  --primary-font: sans-serif;
-  --secondary-font: serif;
-  --main-text-color: #000;
-
-  --white-space: 2rem;
 }
 
 html {
   font-size: 100%;
-  font-family: var(--primary-font);
+  font-family: var(--secondary-font);
 }
 
 img {
@@ -99,10 +93,10 @@ section {
 }
 
 .section-heading {
-  font-style: italic;
   font-size: 1.3rem;
   color: #777;
   margin: 0.5rem 0;
+  font-family: var(--infotekst-font);
 }
 
 ul {
@@ -138,6 +132,7 @@ ul li:last-child {
 
 .color-swatch-5 {
   background-color: var(--color-5);
+  border: solid 1px #1a1a1a;
 }
 
 .textures li {
@@ -220,6 +215,7 @@ button:active {
 }
 
 .h1-sample {
+  font-family: var(--primary-font);
   font-size: 2.4rem;
   font-weight: bold;
 }
