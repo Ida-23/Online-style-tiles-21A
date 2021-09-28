@@ -90,23 +90,29 @@ ul li:last-child {
 
 .color-swatch-1 {
   background-color: var(--bg-color);
+  text-align: center;
 }
 
 .color-swatch-2 {
   background-color: var(--link-color);
+  text-align: center;
 }
 
 .color-swatch-3 {
   background-color: var(--link-hover-color);
+  text-align: center;
 }
 
 .color-swatch-4 {
   background-color: var(--color-4);
+  text-align: center;
+  color: #fffff8;
 }
 
 .color-swatch-5 {
   background-color: var(--color-5);
   border: solid 1px #1a1a1a;
+  text-align: center;
 }
 
 .textures li {
